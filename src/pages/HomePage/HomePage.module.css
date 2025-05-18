@@ -1,0 +1,19 @@
+.heroImg {
+  background-image: url('/images/Picture.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+  height: 100vh;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 80px;
+}
+
+@media (min-resolution: 192dpi) {
+  .bgImage {
+    background-image: url('/images/Picture.jpg');
+  }
+}
