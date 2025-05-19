@@ -10,13 +10,13 @@ const Header = () => {
   return (
     <div className={css.wrapper}>
       <div className={css.contentWrapper}>
-        <NavLink to="/" className={css.logoStyle}>
+        <NavLink to="/" className={css.logoWrapper}>
           <svg className={css.logo} width="114px" height="16px">
             <use href="images/icons.svg#icon-logo"></use>
           </svg>
         </NavLink>
         <nav>
-          <NavLink to="/" className={buildLinkClass}>
+          <NavLink to="/" end className={buildLinkClass}>
             Home
           </NavLink>
           <NavLink to="/catalog" className={buildLinkClass}>
